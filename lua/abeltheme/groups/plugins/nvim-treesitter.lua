@@ -30,14 +30,14 @@ local function callback()
 
     -- function
     ["@function"] = { link = "Function" },
-    ["@function.builtin"] = { fg = C.cyan },
+    ["@function.builtin"] = { fg = C.blue },
     ["@function.call"] = { link = "@function" },
     ["@function.macro"] = { fg = C.yellow },
 
-    ["@method"] = { fg = C.cyan },
+    ["@method"] = { fg = C.blue },
     ["@method.call"] = { link = "@method" },
 
-    ["@constructor"] = { fg = C.yellow },
+    ["@constructor"] = { fg = C.purple },
     ["@parameter"] = { fg = C.orange },
 
     -- keyword
@@ -69,7 +69,7 @@ local function callback()
     ["@property"] = { link = "@variable.builtin" },
 
     -- identifiers
-    ["@variable"] = { link = "Identifier" },
+    ["@variable"] = { link = "Idconstantentifier" },
     ["@variable.builtin"] = { fg = C.red },
 
     ["@constant"] = { link = "Constant" },
