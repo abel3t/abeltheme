@@ -21,7 +21,7 @@ local function callback()
     Float = { fg = C.orange, bg = C.none }, -- a floating point constant: 2.3e10
     -- Identifier
     Identifier = { fg = C.text, bg = C.none }, -- any variable name
-    Function = { fg = C.blue, bg = C.none }, -- function name (also: methods for classes)
+    Function = { fg = C.blue_1, bg = C.none }, -- function name (also: methods for classes)
     -- Statement
     Statement = { fg = C.purple, bg = C.none }, -- any statement
     Conditional = { fg = C.purple, bg = C.none }, -- if, then, else, endif, switch, etc.
