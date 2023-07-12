@@ -20,7 +20,7 @@ local function callback()
     Boolean = { fg = C.yellow, bg = C.none }, -- a boolean constant: TRUE, false
     Float = { fg = C.orange, bg = C.none }, -- a floating point constant: 2.3e10
     -- Identifier
-    Identifier = { fg = C.text, bg = C.none }, -- any variable name
+    Identifier = { fg = C.gold, bg = C.none }, -- any variable name
     Function = { fg = C.blue_1, bg = C.none }, -- function name (also: methods for classes)
     -- Statement
     Statement = { fg = C.purple, bg = C.none }, -- any statement
